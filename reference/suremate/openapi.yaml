@@ -1,0 +1,18 @@
+openapi: 3.0.0
+info:
+  title: suremate
+  version: '1.0'
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /users:
+    get:
+      summary: all users
+      tags: &ref_0 []
+      responses: {}
+    post:
+      summary: create user
+      tags: *ref_0
+      responses: {}
+components:
+  schemas: {}
